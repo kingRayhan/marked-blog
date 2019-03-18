@@ -28,3 +28,33 @@ YYYY-MM-DD-post-title-by-slug
 | --------------- | ---------------------------------------------------- |
 | `/`             | A array of posts with meta and compiled post content |
 | `/tag/:tagName` | A array of filtered post of specific tag name        |
+
+** Exaple Response **
+
+```
+[
+  {
+    "meta": {
+      "title": "post title",
+      "description": "Post description",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3",
+        ................
+        ................
+
+      ],
+      "date": {
+        "date": "2019-03-17",
+        "year": "2019",
+        "month": "03",
+        "day": "17"
+      }
+    },
+    "body": ".. compiled html ..."
+  },
+  ............
+  ............
+]
+```
