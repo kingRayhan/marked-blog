@@ -1,5 +1,8 @@
 ## marked-blog
 
+![](https://img.shields.io/github/issues-raw/kingrayhan/marked-blog.svg?style=plastic)
+![](https://img.shields.io/github/downloads/kingrayhan/marked-blog/total.svg)
+
 A Blog rest api provider based of markdown files
 
 ## Install dependencies
