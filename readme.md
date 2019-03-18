@@ -1,4 +1,4 @@
-## markedBlog
+## marked-blog
 
 A Blog rest api provider based of markdown files
 
