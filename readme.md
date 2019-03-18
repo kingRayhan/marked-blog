@@ -29,7 +29,7 @@ YYYY-MM-DD-post-title-by-slug
 | `/`             | A array of posts with meta and compiled post content |
 | `/tag/:tagName` | A array of filtered post of specific tag name        |
 
-**Exaple Response**
+**Example Response**
 
 ```
 [
