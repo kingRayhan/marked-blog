@@ -27,6 +27,7 @@ YYYY-MM-DD-post-title-by-slug
 | url             | resource                                             |
 | --------------- | ---------------------------------------------------- |
 | `/`             | A array of posts with meta and compiled post content |
+| `/:slug`        | A object of single post                              |
 | `/tag/:tagName` | A array of filtered post of specific tag name        |
 
 **Example Response**
@@ -37,6 +38,7 @@ YYYY-MM-DD-post-title-by-slug
     "meta": {
       "title": "post title",
       "description": "Post description",
+      "slug": "this-is-post-slug",
       "tags": [
         "tag1",
         "tag2",

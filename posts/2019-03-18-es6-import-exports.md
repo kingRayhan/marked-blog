@@ -2,6 +2,7 @@
 title: How to win javascript in 2019
 description:
 tags: javascript , nodejs , es6, js
+slug: this-is-post-slug-2
 ---
 
 ## Learn Basic JS Frist
