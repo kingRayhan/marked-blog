@@ -31,7 +31,7 @@ YYYY-MM-DD-post-title-by-slug
 
 **Exaple Response**
 
-```json
+```
 [
   {
     "meta": {
