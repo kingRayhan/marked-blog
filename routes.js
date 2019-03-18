@@ -18,7 +18,12 @@ Router.get('/', (req, res) => {
             meta: {
                 ...post.attributes,
                 tags: post.attributes.tags.split(',').map(tag => tag.trim()),
-                date: file.slice(0, 10),
+                date: {
+                    date: file.slice(0, 10),
+                    year: file.slice(0, 10).split('-')[0],
+                    month: file.slice(0, 10).split('-')[1],
+                    day: file.slice(0, 10).split('-')[2],
+                },
             },
             body: md(post.body),
         }
