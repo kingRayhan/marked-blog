@@ -1,7 +1,9 @@
 ## marked-blog
 
+![](https://img.shields.io/github/license/kingrayhan/marked-blog.svg)
 ![](https://img.shields.io/github/issues-raw/kingrayhan/marked-blog.svg?style=plastic)
 ![](https://img.shields.io/github/downloads/kingrayhan/marked-blog/total.svg)
+![](https://img.shields.io/github/last-commit/kingrayhan/marked-blog.svg)
 
 A Blog rest api provider based of markdown files
 
